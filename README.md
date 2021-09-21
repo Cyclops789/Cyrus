@@ -57,3 +57,67 @@
     <td>null</td>
   </tr>
 </table>
+<h5>Moderation</h5>
+<table>
+  <tr>
+    <th>Commands</th>
+    <th>Description</th>
+    <th>Permissions</th>
+  </tr>
+  <tr>
+    <td>ban</td>
+    <td>To ban a user</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>unban</td>
+    <td>To unban a user</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>kick</td>
+    <td>Sto kick a user</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>mute</td>
+    <td>To mute a user</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>unmute</td>
+    <td>To unmute a user</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>clear</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>warn</td>
+    <td>To warn a user</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>warnings</td>
+    <td>Shows all User's warnings</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>lock</td>
+    <td>To lock a channel</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>unlock</td>
+    <td>To unlock a channel</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>slowmode</td>
+    <td>To change slowmode of a channel</td>
+    <td>null</td>
+  </tr>
+</table>
+
