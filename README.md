@@ -173,5 +173,41 @@
     <td>null</td>
   </tr>
 </table>
-
-
+<h5>Utility</h5>
+<table>
+  <tr>
+    <th>Commands</th>
+    <th>Description</th>
+    <th>Permissions</th>
+  </tr>
+  <tr>
+    <td>vote</td>
+    <td>To vote for somthing</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>translate</td>
+    <td>To translate a text</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>embed</td>
+    <td>To make a custome embed</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>google</td>
+    <td>To google something</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>say</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>sudo</td>
+    <td>makes a webhook to impersonate someone</td>
+    <td>null</td>
+  </tr>
+</table>
