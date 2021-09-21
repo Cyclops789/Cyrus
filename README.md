@@ -120,4 +120,58 @@
     <td>null</td>
   </tr>
 </table>
+<h5>Fun</h5>
+<table>
+  <tr>
+    <th>Commands</th>
+    <th>Description</th>
+    <th>Permissions</th>
+  </tr>
+  <tr>
+    <td>howgay</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>hello</td>
+    <td>throw up a nice hello message</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>rate</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>pp</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>coinflip</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>ascii</td>
+    <td>convert your text into nice ascii art</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>hack</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>randomnumber</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+    <tr>
+    <td>8ball</td>
+    <td>null</td>
+    <td>null</td>
+  </tr>
+</table>
+
 
