@@ -207,7 +207,68 @@
   </tr>
   <tr>
     <td>sudo</td>
-    <td>makes a webhook to impersonate someone</td>
+    <td>Makes a webhook to impersonate someone</td>
+    <td>null</td>
+  </tr>
+   <tr>
+    <td>afk</td>
+    <td>To set your afk</td>
+    <td>null</td>
+  </tr>
+</table>
+<h5>Anime</h5>
+<table>
+  <tr>
+    <th>Commands</th>
+    <th>Description</th>
+    <th>Permissions</th>
+  </tr>
+  <tr>
+    <td>anime-info</td>
+    <td>Get full information about an anime</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>characterinfo</td>
+    <td>Get full information about naruto's character</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>topanime</td>
+    <td>Get top 10 animes per page</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>random</td>
+    <td>Get random anime gifs</td>
+    <td>null</td>
+  </tr>
+  <tr>
+    <td>randomsad</td>
+    <td>Get random sad anime gifs</td>
+    <td>null</td>
+  </tr>
+</table>
+<h5>Misc</h5>
+<table>
+  <tr>
+    <th>Commands</th>
+    <th>Description</th>
+    <th>Permissions</th>
+  </tr>
+  <tr>
+    <td>feedback</td>
+    <td>To send a feedback to us</td>
+    <td>null</td>
+  </tr>
+   <tr>
+    <td>suggestions</td>
+    <td>To send an idea or anything to us</td>
+    <td>null</td>
+  </tr>
+   <tr>
+    <td>report</td>
+    <td>To report us any bugs or issues</td>
     <td>null</td>
   </tr>
 </table>
