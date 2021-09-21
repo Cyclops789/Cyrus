@@ -67,32 +67,32 @@
   <tr>
     <td>ban</td>
     <td>To ban a user</td>
-    <td>null</td>
+    <td>BAN_MEMBERS</td>
   </tr>
   <tr>
     <td>unban</td>
     <td>To unban a user</td>
-    <td>null</td>
+    <td>BAN_MEMBERS</td>
   </tr>
   <tr>
     <td>kick</td>
     <td>Sto kick a user</td>
-    <td>null</td>
+    <td>KICK_MEMBERS</td>
   </tr>
   <tr>
     <td>mute</td>
     <td>To mute a user</td>
-    <td>null</td>
+    <td>MANAGE_ROLES</td>
   </tr>
   <tr>
     <td>unmute</td>
     <td>To unmute a user</td>
-    <td>null</td>
+    <td>MANAGE_ROLES</td>
   </tr>
   <tr>
     <td>clear</td>
     <td>null</td>
-    <td>null</td>
+    <td>MANAGE_MESSAGES</td>
   </tr>
   <tr>
     <td>warn</td>
@@ -107,17 +107,17 @@
   <tr>
     <td>lock</td>
     <td>To lock a channel</td>
-    <td>null</td>
+    <td>MANAGE_ROLES</td>
   </tr>
   <tr>
     <td>unlock</td>
     <td>To unlock a channel</td>
-    <td>null</td>
+    <td>MANAGE_ROLES</td>
   </tr>
   <tr>
     <td>slowmode</td>
     <td>To change slowmode of a channel</td>
-    <td>null</td>
+    <td>MANAGE_CHANNELS</td>
   </tr>
 </table>
 <h5>Fun</h5>
