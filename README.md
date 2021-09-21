@@ -1,2 +1,2 @@
-# Cyrus
-A discord bot with dynamic website
+# Commands
+<h5>Hi</h5>
