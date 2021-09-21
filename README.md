@@ -8,26 +8,7 @@
   </tr>
   <tr>
     <td>banner</td>
-    <td>profile</td>
-    <td>serverinfo</td>
-    <td>userinfo</td>
-    <td>avatar</td>
-    <td>botinfo</td>
-    <td>dev</td>
-    <td>invite</td>
-    <td>iinfo</td>
-    <td>systeminfo</td>
-  </tr>
-  <tr>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
-    <td>null</td>
+    <td>Show the user's banner</td>
     <td>null</td>
   </tr>
 </table>
