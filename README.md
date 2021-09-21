@@ -1,18 +1,33 @@
 # Commands
+<h5>Information</h5>
 <table>
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
+    <th>Commands</th>
+    <th>Description</th>
+    <th>Permissions</th>
   </tr>
   <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
+    <td>banner</td>
+    <td>profile</td>
+    <td>serverinfo</td>
+    <td>userinfo</td>
+    <td>avatar</td>
+    <td>botinfo</td>
+    <td>dev</td>
+    <td>invite</td>
+    <td>iinfo</td>
+    <td>systeminfo</td>
   </tr>
   <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
+    <td>null</td>
   </tr>
 </table>
