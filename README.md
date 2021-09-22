@@ -12,6 +12,7 @@ Dont forget to leave a Star ;)
 * dynamic help command
 * +60 commands and much more
 * Chat bot
+* Commands handler, event handler
 
 # For self host
 follow these setups
