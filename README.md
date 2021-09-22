@@ -42,8 +42,12 @@ exports.Status = `https://status.cyrus.ga`;
 ```
 * 4 - run `npm install` to install all pachages.
 * 5 - run `node server.js` or `npm start` to run the bot.
-* 6 - you can Run this project via Replit, 
+* 6 - you can Run this project on Replit, 
 [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/github/plibither8/2048.cpp)
+* 7 - Setup environment variables
+
+<p align="center"> <img align="center" alt="2048 in action!" src="assets/1.png"></img> </p>
+
 # Commands
 <h5>Information</h5>
 <table>
@@ -318,3 +322,7 @@ exports.Status = `https://status.cyrus.ga`;
     <td>null</td>
   </tr>
 </table>
+
+# Soon!
+* Dashboard
+* Fighting system such as in naruto?
