@@ -25,6 +25,8 @@ exports.DevId = `Your ID`;
 exports.Feedback = 'Channel ID';
 exports.Report = 'Channel ID';
 exports.Suggestion = 'Channel ID';
+exports.GuildDelete = 'Channel ID';
+exports.GuildCreate = 'Channel ID';
 
 //Not important
 
