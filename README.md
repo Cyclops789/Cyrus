@@ -42,11 +42,11 @@ exports.Status = `https://status.cyrus.ga`;
 ```
 * 4 - run `npm install` to install all pachages.
 * 5 - run `node server.js` or `npm start` to run the bot.
-* 6 - you can Run this project on Replit, 
+* 6 - Or you can Run this project on Replit, 
 [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/github/plibither8/2048.cpp)
-* 7 - Setup environment variables
+* 6.1 - Setup environment variables
 
-<p align="center"> <img align="center" alt="2048 in action!" src="assets/1.png"></img> </p>
+<a href="https://ibb.co/QfmGg1V"><img src="https://i.ibb.co/QfmGg1V/Capture.png" alt="Capture" border="0"></a>
 
 # Commands
 <h5>Information</h5>
