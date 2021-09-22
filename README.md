@@ -3,6 +3,16 @@ Cyrus is a Discord Bot with focus on Fun, Moderation, information and much more 
 * Invite : Click [here](https://cyrus.ga/invite)
 * Vote : [Top.gg](https://cyrus.ga/topgg) or [discordlist.space](https://cyrus.ga/discordlist)
 * Status: [![Discord Bots](https://top.gg/api/widget/status/808425789494263838.svg?noavatar=true)](https://top.gg/bot/808425789494263838)
+
+Dont forget to leave a Star ;)
+
+# Features
+
+* dynamic website
+* dynamic help command
+* +60 commands and much more
+* Chat bot
+
 # For self host
 follow these setups
 * 1 - First of all download [Node.js](https://nodejs.org/en/download/) 12 or 14, then goto [Discord Developer Portal](https://discord.com/developers/applications), create your bot and then save the token.
@@ -53,6 +63,36 @@ exports.Status = `https://status.cyrus.ga`;
 * 6.1 - Setup environment variables:
 
 ![terminal](https://i.ibb.co/QfmGg1V/Capture.png)
+# Website
+
+* goto `config.json` and change these links to your own links:
+```sh
+{
+	"Topgg_url": "https://top.gg/bot/808425789494263838",
+	"Discordlist_url": "https://discordlist.space/bot/808425789494263838",
+	"Ivite_url": "https://discord.com/api/oauth2/authorize?client_id=808425789494263838&permissions=939584631&scope=bot",
+	"Status_url": "https://status.cyrus.ga/",
+	"Support_url": "https://discord.gg/mtNwjqGbDU",
+	"DevID": "604034501210800128"
+}
+```
+<h3>Home</h4>
+
+<p align="center">
+    <img align="center" alt="Home" src="https://i.ibb.co/y8zzJdH/Capture.png"></img>
+</p>
+
+<h3>Commands</h4>
+
+<p align="center">
+    <img align="center" alt="commands" src="https://i.ibb.co/z2R1Z73/cmds.png"></img>
+</p>
+
+<h3>Stats</h4>
+
+<p align="center">
+    <img align="center" alt="stats" src="https://i.ibb.co/PDgzhhS/stats.png"></img>
+</p>
 
 # Commands
 <h5>Information</h5>
