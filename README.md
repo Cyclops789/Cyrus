@@ -1,3 +1,50 @@
+# Cyrus
+Cyrus is a Discord Bot with focus on Fun, Moderation, information and much more commands! Made it with Discord.js
+* Invite : Click [here](https://cyrus.ga/invite)
+* Vote : [Top.gg](https://cyrus.ga/topgg) or [discordlist.space](https://cyrus.ga/discordlist)
+# For self host
+follow these setups
+* 1 - First of all download [Node.js](https://nodejs.org/en/download/) 12 or 14, then goto [Discord Developer Portal](https://discord.com/developers/applications), create your bot and then save the token.
+* 2 - Renamed `config.env` to `.env` then change these things
+```sh
+TOKEN=Your bot's token here
+SECRET=Your bot's secret here (you can get it from OAuth2)
+PORT=3001 (change it if you want)
+MONGOPATH=Your mongodb url (for Profile and afk commands)
+DASHBOARDDB=Your dashboard mongodb url (not important for now)
+```
+* 3 - goto `config.js` and change these things:
+```sh
+//Prefix
+exports.Prefix = `g.`;
+//For embeds color
+exports.Color = `#ff0000`;
+//Dev id
+exports.DevId = `Your ID`;
+//log channels (for Misc commands)
+exports.Feedback = 'Channel ID';
+exports.Report = 'Channel ID';
+exports.Suggestion = 'Channel ID';
+
+//Not important
+
+//Website link
+exports.Website = `https://cyrus.ga/`;
+//Invit Link, permission should be 939584631
+exports.InvLink = `https://discord.com/api/oauth2/authorize?client_id=808425789494263838&permissions=939584631&scope=bot`;
+//Supports server link
+exports.Supportsrv = `https://discord.gg/mtNwjqGbDU`;
+//top.gg link
+exports.Topgg = `https://top.gg/bot/808425789494263838`;
+//discordlist.space link
+exports.Discordlist = `https://discordlist.space/bot/808425789494263838`;
+//status page
+exports.Status = `https://status.cyrus.ga`;
+```
+* 4 - run `npm install` to install all pachages.
+* 5 - run `node server.js` or `npm start` to run the bot.
+* 6 - you can Run this project via Replit, 
+[![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/github/plibither8/2048.cpp)
 # Commands
 <h5>Information</h5>
 <table>
