@@ -20,8 +20,7 @@ follow these setups
 * 2 - Renamed `config.env` to `.env` then change these things
 ```sh
 TOKEN=Your bot's token here
-SECRET=Your bot's secret here (you can get it from OAuth2)
-PORT=3001 (change it if you want)
+PORT=3001
 MONGOPATH=Your mongodb url (for Profile, afk and warn commands)
 ```
 * 3 - goto `config.js` and change these things:
