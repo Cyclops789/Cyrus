@@ -52,7 +52,7 @@ exports.Status = `https://status.cyrus.ga`;
 [![Run on Repl.it](https://repl.it/badge/github/plibither8/2048.cpp)](https://repl.it/github/plibither8/2048.cpp)
 * 6.1 - Setup environment variables:
 
-<a href="https://ibb.co/QfmGg1V"><img src="https://i.ibb.co/QfmGg1V/Capture.png" alt="Capture" border="0"></a>
+![terminal](https://i.ibb.co/QfmGg1V/Capture.png)
 
 # Commands
 <h5>Information</h5>
