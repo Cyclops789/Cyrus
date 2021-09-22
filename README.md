@@ -60,8 +60,8 @@ exports.Discordlist = `https://discordlist.space/bot/808425789494263838`;
 //status page
 exports.Status = `https://status.cyrus.ga`;
 ```
-* 4 - run `npm install` to install all pachages.
-* 5 - run `node server.js` or `npm start` to run the bot.
+* 4 - run `npm install` to install all packages.
+* 5 - run `node server.js` or `npm start` to start the bot.
 * 6 - Or you can Run this project on Replit, 
 
 [![Run on Repl.it](https://replit.com/@cyclopscss/Cyrus-Bot?v=1)](https://replit.com/@cyclopscss/Cyrus-Bot?v=1)
@@ -198,12 +198,12 @@ exports.Status = `https://status.cyrus.ga`;
   <tr>
     <td>warn</td>
     <td>To warn a user</td>
-    <td>null</td>
+    <td>KICK_MEMBERS</td>
   </tr>
   <tr>
     <td>warnings</td>
     <td>Shows all User's warnings</td>
-    <td>null</td>
+    <td>KICK_MEMBERS</td>
   </tr>
   <tr>
     <td>lock</td>
