@@ -28,6 +28,9 @@ exports.Suggestion = 'Channel ID';
 exports.GuildDelete = 'Channel ID';
 exports.GuildCreate = 'Channel ID';
 
+//If you want Ai Bot aka chat bot
+exports.ChatBot = 'Channel ID';
+
 //Not important
 
 //Website link
