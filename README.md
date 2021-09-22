@@ -234,7 +234,7 @@ exports.Status = `https://status.cyrus.ga`;
   <tr>
     <td>vote</td>
     <td>To vote for somthing</td>
-    <td>null</td>
+    <td>MANAGE_MESSAGES</td>
   </tr>
   <tr>
     <td>translate</td>
@@ -244,7 +244,7 @@ exports.Status = `https://status.cyrus.ga`;
   <tr>
     <td>embed</td>
     <td>To make a custome embed</td>
-    <td>null</td>
+    <td>MANAGE_MESSAGES</td>
   </tr>
   <tr>
     <td>google</td>
@@ -254,12 +254,12 @@ exports.Status = `https://status.cyrus.ga`;
   <tr>
     <td>say</td>
     <td>null</td>
-    <td>null</td>
+    <td>MANAGE_MESSAGES</td>
   </tr>
   <tr>
     <td>sudo</td>
     <td>Makes a webhook to impersonate someone</td>
-    <td>null</td>
+    <td>MANAGE_WEBHOOKS</td>
   </tr>
    <tr>
     <td>afk</td>
