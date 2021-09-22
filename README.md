@@ -11,7 +11,7 @@ follow these setups
 TOKEN=Your bot's token here
 SECRET=Your bot's secret here (you can get it from OAuth2)
 PORT=3001 (change it if you want)
-MONGOPATH=Your mongodb url (for Profile and afk commands)
+MONGOPATH=Your mongodb url (for Profile, afk and warn commands)
 ```
 * 3 - goto `config.js` and change these things:
 ```sh
