@@ -2,9 +2,11 @@
 Cyrus is a Discord Bot with focus on Fun, Moderation, information and much more commands! Made it with Discord.js
 * Invite : Click [here](https://cyrus.ga/invite)
 * Vote : [Top.gg](https://cyrus.ga/topgg) or [discordlist.space](https://cyrus.ga/discordlist)
-* Status: [![Discord Bots](https://top.gg/api/widget/status/808425789494263838.svg?noavatar=true)](https://top.gg/bot/808425789494263838)
+
+[![Discord Bots](https://top.gg/api/widget/status/808425789494263838.svg?noavatar=true)](https://top.gg/bot/808425789494263838)
 
 ![Cocoapods](https://img.shields.io/cocoapods/l/m?style=for-the-badge)
+
 
 Dont forget to leave a Star ;)
 
@@ -61,6 +63,7 @@ exports.Status = `https://status.cyrus.ga`;
 * 4 - run `npm install` to install all pachages.
 * 5 - run `node server.js` or `npm start` to run the bot.
 * 6 - Or you can Run this project on Replit, 
+
 [![Run on Repl.it](https://replit.com/@cyclopscss/Cyrus-Bot)](https://replit.com/@cyclopscss/Cyrus-Bot)
 * 6.1 - Setup environment variables:
 
