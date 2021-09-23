@@ -9,7 +9,7 @@ module.exports = {
   example: ``,
   category: "dev",
   run: async (client, message, args) => {
-		let lockPermErr = new Discord.MessageEmbed()
+       let lockPermErr = new Discord.MessageEmbed()
         .setColor(`${Color}`)
         .setTitle("**Error!**")
         .setDescription("**This command is only available for the owner!**")
