@@ -64,6 +64,9 @@ exports.Status = `https://status.cyrus.ga`;
 ```
 * 4 - run `npm install` to install all packages.
 * 5 - run `node server.js` or `npm start` to start the bot.
+
+<a href="https://imgbb.com/"><img src="https://i.ibb.co/X2W0Qm7/Capture.png" alt="Capture" border="0"></a>
+
 * 6 - Or you can Run this project on Replit, 
 
 [![Run on Repl.it](https://replit.com/@cyclopscss/Cyrus-Bot?v=1)](https://replit.com/@cyclopscss/Cyrus-Bot?v=1)
