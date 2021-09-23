@@ -5,6 +5,8 @@ Cyrus is a Discord Bot with focus on Fun, Moderation, information and much more 
 
 [![Discord Bots](https://top.gg/api/widget/status/808425789494263838.svg?noavatar=true)](https://top.gg/bot/808425789494263838)
 
+[![Discord Bots](https://top.gg/api/widget/upvotes/808425789494263838.svg?noavatar=true)](https://top.gg/bot/808425789494263838/vote)
+
 ![Cocoapods](https://img.shields.io/cocoapods/l/m?style=for-the-badge)
 
 
