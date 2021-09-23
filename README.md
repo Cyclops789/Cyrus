@@ -80,7 +80,7 @@ exports.Status = `https://status.cyrus.ga`;
 {
 	"Topgg_url": "https://top.gg/bot/808425789494263838",
 	"Discordlist_url": "https://discordlist.space/bot/808425789494263838",
-	"Ivite_url": "https://discord.com/api/oauth2/authorize?client_id=808425789494263838&permissions=939584631&scope=bot",
+	"Invite_url": "https://discord.com/api/oauth2/authorize?client_id=808425789494263838&permissions=939584631&scope=bot",
 	"Status_url": "https://status.cyrus.ga/",
 	"Support_url": "https://discord.gg/mtNwjqGbDU",
 	"DevID": "604034501210800128"
