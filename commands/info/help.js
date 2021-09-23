@@ -3,6 +3,8 @@ const { MessageEmbed } = require("discord.js");
 const { Color, Prefix, InvLink, Website, Supportsrv } = require("../../config.js");
 const pagination = require('discord.js-pagination');
 const lineReply = require('discord-reply');
+const { Animecmds, Funcmds, Infocmds, Misccmds, Modcmds, Utilitycmds } = require("../commands");
+
 
 module.exports = {
 
@@ -26,49 +28,42 @@ module.exports = {
 
     const fun = new Discord.MessageEmbed()
       .setTitle(`Fun`)
-      .setDescription(`\`\`\` hello, coinflip, howgay, rate, dicksize, ascii, hack, randomnumber, 8ball. \`\`\``)
+      .setDescription(`\`\`\` ${client.commands.filter(cmd => cmd.category === "fun").array().map(m => m.name.charAt(0).toUpperCase() + m.name.slice(1)).join(", ")} \`\`\``)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
       .setTimestamp()
       .setColor(Color)
 
     const info = new Discord.MessageEmbed()
       .setTitle(`Information`)
-      .setDescription(`\`\`\` profile, serverinfo, membercount, iinfo, userinfo, avatar, banner, botinfo, dev, systeminfo, invite. \`\`\``)
+      .setDescription(`\`\`\` ${client.commands.filter(cmd => cmd.category === "info").array().map(m => m.name.charAt(0).toUpperCase() + m.name.slice(1)).join(", ")} \`\`\``)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
       .setColor(Color)
       .setTimestamp()
 
     const mod = new Discord.MessageEmbed()
       .setTitle(`Moderation`)
-      .setDescription(`\`\`\` clear, mute, unmute, kick, ban, unban, warn, warnings, lock, unlock, slowmode. \`\`\``)
+      .setDescription(`\`\`\` ${client.commands.filter(cmd => cmd.category === "Moderation").array().map(m => m.name.charAt(0).toUpperCase() + m.name.slice(1)).join(", ")} \`\`\``)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
       .setTimestamp()
       .setColor(Color)
 
     const utility = new Discord.MessageEmbed()
       .setTitle(`Utility`)
-      .setDescription(`\`\`\`afk, translate, vote, embed, google, say, sudo. \`\`\``)
-      .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
-      .setTimestamp()
-      .setColor(Color)
-
-    const image = new Discord.MessageEmbed()
-      .setTitle(`Image`)
-      .setDescription(`\`\`\` blink, kiss, blur, criminal, delete, gay, meme, slap, triggered. \`\`\``)
+      .setDescription(`\`\`\` ${client.commands.filter(cmd => cmd.category === "Utility").array().map(m => m.name.charAt(0).toUpperCase() + m.name.slice(1)).join(", ")} \`\`\``)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
       .setTimestamp()
       .setColor(Color)
 
     const misc = new Discord.MessageEmbed()
       .setTitle(`Misc`)
-      .setDescription(`\`\`\` report, suggestion, feedback. \`\`\``)
+      .setDescription(`\`\`\`${client.commands.filter(cmd => cmd.category === "Misc").array().map(m => m.name.charAt(0).toUpperCase() + m.name.slice(1)).join(", ")} \`\`\``)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
       .setColor(Color)
       .setTimestamp()
 
 		const anime = new Discord.MessageEmbed()
       .setTitle(`Anime`)
-      .setDescription(`\`\`\` characterinfo, topanime, anime-info, random, randomsad. \`\`\``)
+      .setDescription(`\`\`\` ${client.commands.filter(cmd => cmd.category === "anime").array().map(m => m.name.charAt(0).toUpperCase() + m.name.slice(1)).join(", ")} \`\`\``)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
       .setColor(Color)
       .setTimestamp()
@@ -78,7 +73,6 @@ module.exports = {
       fun,
       info,
       mod,
-      image,
       misc,
       utility,
 			anime
