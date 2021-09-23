@@ -3,8 +3,6 @@ const { MessageEmbed } = require("discord.js");
 const { Color, Prefix, InvLink, Website, Supportsrv } = require("../../config.js");
 const pagination = require('discord.js-pagination');
 const lineReply = require('discord-reply');
-const { Animecmds, Funcmds, Infocmds, Misccmds, Modcmds, Utilitycmds } = require("../commands");
-
 
 module.exports = {
 
