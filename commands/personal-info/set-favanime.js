@@ -6,7 +6,7 @@ const { Prefix } = require('../../config.js')
 module.exports = {
     name: "setfavanime",
     description: "set your favorite anime",
-   	example: `${Prefix}setfavanime`,
+    example: `${Prefix}setfavanime`,
     aliases: [""],
 		category: "personal-info",
     run: async (client, message, args) => {
