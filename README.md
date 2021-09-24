@@ -159,7 +159,7 @@ exports.Status = `https://status.cyrus.ga`;
   </tr>
   <tr>
     <td>systeminfo</td>
-    <td>To display soome information about the hosting server</td>
+    <td>To display some information about the hosting server</td>
     <td>null</td>
   </tr>
 </table>
