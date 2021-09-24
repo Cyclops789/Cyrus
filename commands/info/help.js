@@ -17,7 +17,7 @@ module.exports = {
 
     const intro = new Discord.MessageEmbed()
       .setAuthor("Cyrus", client.user.displayAvatarURL())
-			.addField(`For the detailed help for a command`, `\`Use ${Prefix}help [command name]\``)
+      .addField(`For the detailed help for a command`, `\`Use ${Prefix}help [command name]\``)
       .addField('I have commands for:', `\`Fun\`\n \`Information\`\n  \`Moderation\`\n \`Image\`\n \`Misc\`\n  \`Utility\`\n \`Anime\`\n`)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
       .setColor(Color)
@@ -59,7 +59,7 @@ module.exports = {
       .setColor(Color)
       .setTimestamp()
 
-		const anime = new Discord.MessageEmbed()
+    const anime = new Discord.MessageEmbed()
       .setTitle(`Anime`)
       .setDescription(`\`\`\` ${client.commands.filter(cmd => cmd.category === "anime").array().map(m => m.name.charAt(0).toUpperCase() + m.name.slice(1)).join(", ")} \`\`\``)
       .addField(`Links`, `[Add Me](${InvLink}) | [Support Server](${Supportsrv}) | [Cyrus Website](${Website})`)
@@ -73,10 +73,10 @@ module.exports = {
       mod,
       misc,
       utility,
-			anime
+      anime
     ]
 
-		const emojiList = ["⏪", "⏩"];
+    const emojiList = ["⏪", "⏩"];
 
     const timeout = '7200000 '
 
