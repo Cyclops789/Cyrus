@@ -21,8 +21,16 @@ Dont forget to leave a Star ;)
 * Commands handler, event handler
 
 # For self host
-follow these setups
-* 1 - First of all download [Node.js](https://nodejs.org/en/download/) 12 or 14, then goto [Discord Developer Portal](https://discord.com/developers/applications), create your bot and then save the token.
+<h3>Installation</h3>
+
+* 1 - Download [Node.js](https://nodejs.org/en/download/) 12 / 14
+* 2 - Installing required packages:
+```sh
+npm install
+```
+<h3>Setup the bot</h3>
+
+* 1 - Go to [Discord Developer Portal](https://discord.com/developers/applications), create your bot and then save the token.
 * 2 - Renamed `config.env` to `.env` then change these things
 ```sh
 TOKEN=Your bot's token here
@@ -380,5 +388,6 @@ exports.Status = `https://status.cyrus.ga`;
 </table>
 
 # Soon!
+* Upgrading from discord.js v12 > 13
 * Dashboard
 * Fighting system such as in naruto?
