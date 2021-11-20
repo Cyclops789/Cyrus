@@ -388,6 +388,6 @@ exports.Status = `https://status.cyrus.ga`;
 </table>
 
 # Soon!
-* Upgrading from discord.js v12 > 13
+* Upgrading from discord.js v12 > v13
 * Dashboard
 * Fighting system such as in naruto?
