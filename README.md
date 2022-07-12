@@ -1,4 +1,4 @@
-# Cyrus
+# Cyrus is unsupported until idk
 Cyrus is a Discord Bot with focus on Fun, Moderation, information and much more commands! Made it with Discord.js
 * Invite : Click [here](https://cyrus.ga/invite)
 * Vote : [Top.gg](https://cyrus.ga/topgg) or [discordlist.space](https://cyrus.ga/discordlist)
