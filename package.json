@@ -50,7 +50,7 @@
     "nodemon": "^2.0.12",
     "novelcovid": "^3.0.0",
     "parse-ms": "^3.0.0",
-    "passport": "^0.4.1",
+    "passport": "^0.6.0",
     "passport-discord": "^0.1.4",
     "pretty-ms": "^7.0.1",
     "pug": "^3.0.2",
